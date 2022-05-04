@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/17dec730fd.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body >
+
+    <nav class="bg-stone-700 py-6 relative h-18">
+        <div class="container mx-auto flex justify-center items-center">
+            
+            <div class="MenuDesplegable">
+                <a href="#"><i class="fa-solid fa-bars text-xl text-white mr-1"></i>Menu</a>
+               <!-- <ul class="Menu bg-white">
+                    <li><a href="#" class="block p-1.5">Solo por hoy</a></li>
+                    <li><a href="#" class="block p-1.5">Tiendas Oficiales</a></li>
+                    <li><a href="#" class="block p-1.5">Celulares y accesorios</a></li>
+                </ul> -->
+            </div>
+
+            <div class="block w-16 ml-2">
+                <a href=""><img src="img/logo-linio.png" ></a>
+            </div>
+            <div class=" mx-4 block h-8 flex text-stone-800">
+                <input type="text" placeholder="Buscar producto" class="rounded-sm w-96 h-10 outline-0 ">
+                <div>
+                    
+                </div>
+            </div>
+            <div class="text-gray-200 mx-4 block flex">
+                <i class="fa-solid fa-user text-white text-xl "></i>
+                <!--<img src="img/logo-login.png" class="w-8 h-8">-->
+                <a href="#" class="mr-4 ml-2 border-r pr-2.5 border-slate-500">Iniciar Sesión</a>
+                <!--<img src="img/logo-camion.png" class="w-8 h-8">-->
+                <i class="fa-solid fa-truck text-white text-xl "></i>
+                <a href="#" class="mr-4 ml-2 border-r pr-2.5 border-slate-500">Mis Pedidos</a>
+               <!--<img src="img/logo-carrito.png" class="w-8 h-8">-->
+                <i class="fa-solid fa-cart-shopping text-white text-xl"></i>
+                <a href="#" class="mr-4 ml-2 pr-2.5">Carrito</a>
+
+            </div>
+        </div>
+    </nav>
     
 </body>
 </html>
